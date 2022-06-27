@@ -1,7 +1,7 @@
 #clock {
   background-image: url(clock.jpg);
-  width: 50vw;
-  height: 100vh;
+  width: 320px;
+  height: 320px;
   margin: auto;
   border: 4px solid green;
   background-size: 100%;
@@ -44,21 +44,21 @@
 }
 
 #yellow_hole{
-    width: 40px;
-    height: 40px;
+    width: 32px;
+    height: 32px;
     border-radius: 100%;
     top: 44.5%;
-    left: 46.5%;
+    left: 44.5%;
     position: absolute;
     background-color: orange;
     z-index: 0.9;
 }
 #red_hole{
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
     border-radius: 100%;
-    top: 45.2%;
-    left: 47.2%;
+    top: 45.4%;
+    left: 45.7%;
     position: absolute;
     background-color: red;
     z-index: 0.95;
@@ -67,8 +67,8 @@
     width: 20px;
     height: 20px;
     border-radius: 100%;
-    top: 45.7%;
-    left: 48%;
+    top: 46.2%;
+    left: 46.5%;
     position: absolute;
     background-color: white;
     z-index: 0.95;
@@ -77,8 +77,8 @@
     width: 10px;
     height: 10px;
     border-radius: 100%;
-    top: 46.3%;
-    left: 48.5%;
+    top: 47.8%;
+    left: 47.88%;
     position: absolute;
     background-color: black;
     z-index: 1;
