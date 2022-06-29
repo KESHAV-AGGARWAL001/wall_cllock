@@ -1,6 +1,6 @@
 body {
   background-color: bisque;
-  animation: colorchange infinite 4s ;
+  animation: colorchange infinite 4s;
 }
 #clock {
   background-image: url(clock.jpg);
@@ -90,15 +90,22 @@ body {
 }
 
 @keyframes colorchange {
-  0%{
+  0% {
     background-color: pink;
   }
-  20%{
+  20% {
     background-color: bisque;
   }
-  40%{background-color: rgb(182, 221, 143);}
-  60%{background-color: rgb(169, 239, 233);}
-  80%{background-color: rgb(236, 153, 199);}
-  100%{background-color: rgb(225, 225, 130);}
-  
+  40% {
+    background-color: rgb(182, 221, 143);
+  }
+  60% {
+    background-color: rgb(169, 239, 233);
+  }
+  80% {
+    background-color: rgb(236, 153, 199);
+  }
+  100% {
+    background-color: rgb(225, 225, 130);
+  }
 }
